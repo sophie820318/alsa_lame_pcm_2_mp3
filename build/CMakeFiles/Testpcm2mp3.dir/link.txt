@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Testpcm2mp3.dir/src/ALSA_AUDIO_CAPTURE.c.o CMakeFiles/Testpcm2mp3.dir/src/Lame_pcm2mp3.c.o CMakeFiles/Testpcm2mp3.dir/src/testpcm2mp3.c.o  -o Testpcm2mp3  -L/home/chenchao/Downloads/lame_pcm_mp3/3rdparty/lame/lib -Wl,-rpath,/home/chenchao/Downloads/lame_pcm_mp3/3rdparty/lame/lib -lasound -lmp3lame 

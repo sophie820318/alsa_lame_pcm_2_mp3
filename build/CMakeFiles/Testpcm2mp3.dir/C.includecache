@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../3rdparty/lame/include/lame/lame.h
+stddef.h
+-
+stdarg.h
+-
+stdio.h
+-
+
+../include/ALSA_AUDIO_CAPTURE.h
+alsa/asoundlib.h
+-
+
+../include/Lame_pcm2mp3.h
+../3rdparty/lame/include/lame/lame.h
+../3rdparty/lame/include/lame/lame.h
+
+/home/chenchao/Downloads/lame_pcm_mp3/src/ALSA_AUDIO_CAPTURE.c
+ALSA_AUDIO_CAPTURE.h
+/home/chenchao/Downloads/lame_pcm_mp3/src/ALSA_AUDIO_CAPTURE.h
+
+/home/chenchao/Downloads/lame_pcm_mp3/src/Lame_pcm2mp3.c
+Lame_pcm2mp3.h
+/home/chenchao/Downloads/lame_pcm_mp3/src/Lame_pcm2mp3.h
+
+/home/chenchao/Downloads/lame_pcm_mp3/src/testpcm2mp3.c
+ALSA_AUDIO_CAPTURE.h
+/home/chenchao/Downloads/lame_pcm_mp3/src/ALSA_AUDIO_CAPTURE.h
+Lame_pcm2mp3.h
+/home/chenchao/Downloads/lame_pcm_mp3/src/Lame_pcm2mp3.h
+signal.h
+-
+stdlib.h
+/home/chenchao/Downloads/lame_pcm_mp3/src/stdlib.h
+
